@@ -1,0 +1,45 @@
+@back Bg3
+@stopBGM fade:1
+@bgm Map2 volume:0.3 
+@if quest=="Lost"
+	@completeQuest
+	@showUI QuestView
+	@wait 2
+	@getQuest name:Mysterious
+	@char Person.Me pose:right 
+	{PlayerName}: Hello Sofia. I came about the quest.
+	@char Person.Sofia pose:right
+	Sofia: Hello, {PlayerName}. I have some changes. Before we continue, let's play a mini-game.
+	@miniGame state:true
+	@char Person.Me pose:right
+	@bgm Map2 volume:0.3 
+	{PlayerName}: I completed the mini-game. What should I do next?
+	@char Person.Sofia pose:right
+	Sofia: Everything went well! The next step is Location - 3. There you will find a certain item that you need to use.
+	@completeQuest
+	@wait 2
+	@getQuest name:Troubled
+	@IncreaseMapLevel
+@endif
+@if quest=="Dark"
+	@DecreaseMapLevel
+	@showUI QuestView
+	@char Person.Me pose:right 
+	{PlayerName}: After I picked up this item at Location - 3, I became interested in what this thing was and why it was so important. Why all these quests and solving riddles?
+	{PlayerName}: Every character seems to be hiding something.
+	{PlayerName}: Perhaps Sofia or Eliza know more than they say.
+	{PlayerName}: I need to be more careful with my actions and decisions in this adventure.
+	@wait 2
+@endif
+@if quest=="Finish"
+	goto:NPC2Artefact
+	@char Person.Sofia pose:right 
+	@if artefact=="NPC2"
+		Sofia: Hello, glad you're back
+	@else
+		Sofia: Oh, is this what you wanted?
+		Sofia: If there’s nothing interesting then get lost
+	@goto Locations
+@endif
+@endif
+	@goto Locations

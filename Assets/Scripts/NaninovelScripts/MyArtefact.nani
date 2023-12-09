@@ -1,0 +1,13 @@
+@set artefact="Me"
+@char Sofia.S visible:false
+@char Person.Eliza visible:false
+@if artefact=="Me"
+	@showUI QuestView
+	@completeQuest
+	@wait 2
+	@char Person.Eliza pose:right
+	Eliza: You're greedy! Figure it out yourself.
+	@char Persom.Sofia pose:right
+	Sofia: What a selfish person, {PlayerName}.
+@endif
+	@goto Locations

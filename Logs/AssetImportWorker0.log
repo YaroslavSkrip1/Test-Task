@@ -1,0 +1,796 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7521 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Project/NaninovelV2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58433
+Successfully changed project path to: C:/Project/NaninovelV2
+C:/Project/NaninovelV2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 150.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Project/NaninovelV2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3760 MB
+    Driver:   27.20.14032.8
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009588 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.95 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010422 seconds.
+Android Extension - Scanning For ADB Devices 7989 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 128.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Generating Metadata
+Mono: successfully reloaded assembly
+- Completed reload, in  2.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2440ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (989ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5354 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (255.7 KB). Loaded Objects now: 5768.
+Memory consumption went from 194.4 MB to 194.1 MB.
+Total: 6.005800 ms (FindLiveObjects: 0.717300 ms CreateObjectMapping: 0.323100 ms MarkObjects: 4.673500 ms  DeleteObjects: 0.289600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185140.560433 seconds.
+  path: Assets/Asset/Sprites/Background/DALL·E 2023-12-09 13.46.18 - Imagine a cyberpunk Egyptian cityscape, featuring a neon-lit skyline with futuristic pyramids and sphinxes, amidst a backdrop of a starry night sky. T.png
+  artifactKey: Guid(01530ab933a96cd47a73f843090b8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Sprites/Background/DALL·E 2023-12-09 13.46.18 - Imagine a cyberpunk Egyptian cityscape, featuring a neon-lit skyline with futuristic pyramids and sphinxes, amidst a backdrop of a starry night sky. T.png using Guid(01530ab933a96cd47a73f843090b8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2834a0dd9a5d85f3b6f244af93f02e68') in 0.508620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.528092 seconds.
+  path: Assets/Asset/Sprites/Background/Cybersphinx.png
+  artifactKey: Guid(01530ab933a96cd47a73f843090b8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Sprites/Background/Cybersphinx.png using Guid(01530ab933a96cd47a73f843090b8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4e89590b15e839fb0eef87dbc8631c') in 0.207349 seconds 
+09.12.2023 13:48:42|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+09.12.2023 13:48:42|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 143.591710 seconds.
+  path: Assets/Scripts/BehaviourScripts/Views/QuestItemView.cs
+  artifactKey: Guid(ed0cdb0561494353a9228cd511602da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviourScripts/Views/QuestItemView.cs using Guid(ed0cdb0561494353a9228cd511602da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3f296bf2d28176c75701b9577c3718') in 0.016062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.230746 seconds.
+  path: Assets/Scripts/BehaviourScripts/Controllers/MapsController.cs
+  artifactKey: Guid(8994cb7adeb84707b5fca47f5be3a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviourScripts/Controllers/MapsController.cs using Guid(8994cb7adeb84707b5fca47f5be3a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cdab4abeaafb74cdeb8f7e2b2b4379') in 0.010073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.969376 seconds.
+  path: Assets/Scripts/BehaviourScripts/Models/MupVo.cs
+  artifactKey: Guid(f09c6cea9fed4135a396f5259b4c224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviourScripts/Models/MupVo.cs using Guid(f09c6cea9fed4135a396f5259b4c224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaef3aec66f4482fb3b4c2ed9c3a6df') in 0.010526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.565536 seconds.
+  path: Assets/Scripts/BehaviourScripts/Command/IncreaseMapLevelCommand.cs
+  artifactKey: Guid(e336e1a914f54a8d92fb3ed479ddf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviourScripts/Command/IncreaseMapLevelCommand.cs using Guid(e336e1a914f54a8d92fb3ed479ddf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47efed6396cbb9663be1c8bd13505a2f') in 0.009411 seconds 
+09.12.2023 13:55:00|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010630 seconds.
+Begin MonoManager ReloadAssembly
+09.12.2023 13:55:12|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3990ms)
+		BeginReloadAssembly (1476ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (97ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1059ms)
+		EndReloadAssembly (2357ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (779ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (803ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (197.0 KB). Loaded Objects now: 5782.
+Memory consumption went from 193.6 MB to 193.4 MB.
+Total: 36.717800 ms (FindLiveObjects: 1.161600 ms CreateObjectMapping: 8.793500 ms MarkObjects: 20.776500 ms  DeleteObjects: 5.981700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036209 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5481ms)
+		BeginReloadAssembly (1237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (109ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (764ms)
+		EndReloadAssembly (3971ms)
+			LoadAssemblies (378ms)
+			RebuildTransferFunctionScriptingTraits (22ms)
+			SetupTypeCache (1022ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (2265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (718ms)
+				ProcessInitializeOnLoadMethodAttributes (1191ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.44 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (197.0 KB). Loaded Objects now: 5789.
+Memory consumption went from 193.7 MB to 193.5 MB.
+Total: 18.140600 ms (FindLiveObjects: 0.846300 ms CreateObjectMapping: 0.698600 ms MarkObjects: 15.619300 ms  DeleteObjects: 0.974000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1835.771461 seconds.
+  path: Assets/Prefabs/NewDialoguePrinter.prefab
+  artifactKey: Guid(475329618e9205b4cb19f799faf25336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NewDialoguePrinter.prefab using Guid(475329618e9205b4cb19f799faf25336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4709bd580d2cb2153a30d76047264c00') in 2.504143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.554860 seconds.
+  path: Assets/Prefabs/Maps.prefab
+  artifactKey: Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maps.prefab using Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb308db52028677da32e890f1ca006e') in 0.230716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.739387 seconds.
+  path: Assets/Naninovel/Prefabs/DefaultUI/SettingsUI.prefab
+  artifactKey: Guid(65c37f59e9b266f468dd5381fdc03fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/DefaultUI/SettingsUI.prefab using Guid(65c37f59e9b266f468dd5381fdc03fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c871d23da70b70f6d0e5b627135cf2') in 0.422805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.849598 seconds.
+  path: Assets/Naninovel/Resources/Naninovel/DefaultMixer.mixer
+  artifactKey: Guid(a8d2f798fc082fd408df1fe76f6182f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Resources/Naninovel/DefaultMixer.mixer using Guid(a8d2f798fc082fd408df1fe76f6182f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed47f2930afa9a6efa2427f367e15f') in 0.053174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.142221 seconds.
+  path: Assets/Scripts/NaninovelScripts/Main.nani
+  artifactKey: Guid(9bc2e385aa7ccb343b8997506107b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Main.nani using Guid(9bc2e385aa7ccb343b8997506107b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5af5264692c54fdad48052da185476') in 0.547223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 426.587264 seconds.
+  path: Assets/Naninovel/Runtime/Common/Audio/AudioController.cs
+  artifactKey: Guid(8447ceef9af9d2c4c82f4d69037c3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Runtime/Common/Audio/AudioController.cs using Guid(8447ceef9af9d2c4c82f4d69037c3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf0f7e207d634639d06f5dfba5fce05') in 0.073930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 227.818510 seconds.
+  path: Assets/Naninovel/Runtime/Audio/IAudioManager.cs
+  artifactKey: Guid(5962d00f0bcff2845846e2affd4c69ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Runtime/Audio/IAudioManager.cs using Guid(5962d00f0bcff2845846e2affd4c69ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a89a258d344291151fac2737cab8ca2') in 0.032444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 871.817995 seconds.
+  path: Assets/Prefabs/NewTitleUI.prefab
+  artifactKey: Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NewTitleUI.prefab using Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fed10dcda56b4ed6680c9bbdbc7b83') in 0.960916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.237786 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/3MapSelectUI.prefab
+  artifactKey: Guid(1118c282d072cd14eb887ad872066cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Prefabs/3MapSelectUI.prefab using Guid(1118c282d072cd14eb887ad872066cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbd7bbb8584916e934e4fcdfa1a7ffe') in 0.845316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.102449 seconds.
+  path: Assets/Scripts/NaninovelScripts/Artefact.nani
+  artifactKey: Guid(6d00fef6e6c663746ad3bed641293d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Artefact.nani using Guid(6d00fef6e6c663746ad3bed641293d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71526bf99bbf9063cd24007db33683a') in 0.209315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.315923 seconds.
+  path: Assets/Prefabs/ArtefactView.prefab
+  artifactKey: Guid(36d331ff5fda7d44d8731d45aadcdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ArtefactView.prefab using Guid(36d331ff5fda7d44d8731d45aadcdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2835c8dfb833647eb388fc26e256ae12') in 0.075710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.372509 seconds.
+  path: Assets/Prefabs/EnterName.prefab
+  artifactKey: Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnterName.prefab using Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be34157b8856d21377ac04fc0a7276') in 0.858773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.598204 seconds.
+  path: Assets/Prefabs/Maps.prefab
+  artifactKey: Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maps.prefab using Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631d5ea8739f43331d3c2596ab40c860') in 0.087631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.525984 seconds.
+  path: Assets/Prefabs/NewTitleUI.prefab
+  artifactKey: Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NewTitleUI.prefab using Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5e5ddea4ef1fc7ce361aeadde020e8') in 0.053090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.434887 seconds.
+  path: Assets/Prefabs/SelectMap.prefab
+  artifactKey: Guid(53962ea6892e9154784e46c70fee43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SelectMap.prefab using Guid(53962ea6892e9154784e46c70fee43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16378bc5092f363abb22c5f739d25ac2') in 0.063269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 306.764016 seconds.
+  path: Assets/Prefabs/ArtefactView.prefab
+  artifactKey: Guid(36d331ff5fda7d44d8731d45aadcdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ArtefactView.prefab using Guid(36d331ff5fda7d44d8731d45aadcdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2853c3e30d8234fdba2deba2b3c8f3b') in 0.017692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.217533 seconds.
+  path: Assets/Prefabs/EnterName.prefab
+  artifactKey: Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnterName.prefab using Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcad7a968c25c783a2fa93440ddc392') in 0.024264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.478989 seconds.
+  path: Assets/Prefabs/MapItemView.prefab
+  artifactKey: Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MapItemView.prefab using Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9502f32ec432a537797ee42b99e2f66f') in 0.042139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.630694 seconds.
+  path: Assets/Prefabs/Maps.prefab
+  artifactKey: Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maps.prefab using Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5050f5171ea24b48dfdff1b05c0f4a4') in 0.035586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.869684 seconds.
+  path: Assets/Prefabs/NewTitleUI.prefab
+  artifactKey: Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NewTitleUI.prefab using Guid(e0510282496bbfb4cbad1b18d25e231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7975ce178a130f0f6242e01d87ed93') in 0.041396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.608354 seconds.
+  path: Assets/Prefabs/SelectMap.prefab
+  artifactKey: Guid(53962ea6892e9154784e46c70fee43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SelectMap.prefab using Guid(53962ea6892e9154784e46c70fee43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b323838c43d5660e67743cadf721ac0') in 0.020144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.248696 seconds.
+  path: Assets/Scripts/NaninovelScripts/Map1.nani
+  artifactKey: Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Map1.nani using Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f3aa83cdfa778f47d5f51b83320202') in 0.123232 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3599ms)
+		BeginReloadAssembly (1153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (129ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (722ms)
+		EndReloadAssembly (2228ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (555ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (704ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (199.4 KB). Loaded Objects now: 5796.
+Memory consumption went from 193.9 MB to 193.7 MB.
+Total: 14.531900 ms (FindLiveObjects: 0.602000 ms CreateObjectMapping: 0.207100 ms MarkObjects: 12.016600 ms  DeleteObjects: 1.704800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014334 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4840ms)
+		BeginReloadAssembly (888ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (72ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (579ms)
+		EndReloadAssembly (3765ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (53ms)
+			SetupTypeCache (1942ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (729ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.38 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (197.1 KB). Loaded Objects now: 5803.
+Memory consumption went from 193.9 MB to 193.7 MB.
+Total: 19.443300 ms (FindLiveObjects: 0.585000 ms CreateObjectMapping: 0.232300 ms MarkObjects: 18.168000 ms  DeleteObjects: 0.456800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1125.643386 seconds.
+  path: Assets/Scripts/NaninovelScripts/Map1.nani
+  artifactKey: Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Map1.nani using Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1847f341198ed9da05eee1f904dfea9') in 0.071856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.721387 seconds.
+  path: Assets/Scripts/NaninovelScripts/Map1.nani
+  artifactKey: Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Map1.nani using Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030263416f209d1c793a5e1bd90921cf') in 0.005925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.426679 seconds.
+  path: Assets/Scripts/NaninovelScripts/Map1.nani
+  artifactKey: Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Map1.nani using Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db93b17e8c78c779697c4e75480bdf8b') in 0.005277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.214443 seconds.
+  path: Assets/Scripts/NaninovelScripts/Map1.nani
+  artifactKey: Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/Map1.nani using Guid(945ac4b85e866a44489419295dae12b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc4f28c26f8c9a23aa32e36194d8e2d') in 0.008674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.760599 seconds.
+  path: Assets/Scripts/NaninovelScripts/NPC1Artefact.nani
+  artifactKey: Guid(06874507a69974840ab4859610ebd32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/NPC1Artefact.nani using Guid(06874507a69974840ab4859610ebd32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dfa5d0693180277e86d087ae6938f0') in 0.013218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.911233 seconds.
+  path: Assets/Scripts/NaninovelScripts/NPC2Artefact.nani
+  artifactKey: Guid(2e52fcdf5a6818c4685bc4d583295ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NaninovelScripts/NPC2Artefact.nani using Guid(2e52fcdf5a6818c4685bc4d583295ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96091c641cab091942c87efed4e55560') in 0.011792 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034988 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3483ms)
+		BeginReloadAssembly (1009ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (643ms)
+		EndReloadAssembly (2300ms)
+			LoadAssemblies (332ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (663ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (744ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 55.13 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (197.1 KB). Loaded Objects now: 5810.
+Memory consumption went from 194.0 MB to 193.8 MB.
+Total: 621.539000 ms (FindLiveObjects: 49.871200 ms CreateObjectMapping: 0.561000 ms MarkObjects: 568.981600 ms  DeleteObjects: 2.122800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010984 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Project\NaninovelV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4232ms)
+		BeginReloadAssembly (1910ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (120ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (768ms)
+		EndReloadAssembly (2147ms)
+			LoadAssemblies (714ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (642ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (739ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.26 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (196.9 KB). Loaded Objects now: 5817.
+Memory consumption went from 194.0 MB to 193.9 MB.
+Total: 10.388300 ms (FindLiveObjects: 0.486300 ms CreateObjectMapping: 0.162300 ms MarkObjects: 9.147900 ms  DeleteObjects: 0.590100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (194.2 KB). Loaded Objects now: 5817.
+Memory consumption went from 89.3 MB to 89.1 MB.
+Total: 134.188500 ms (FindLiveObjects: 0.986900 ms CreateObjectMapping: 0.233500 ms MarkObjects: 132.412400 ms  DeleteObjects: 0.553700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

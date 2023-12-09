@@ -1,0 +1,13 @@
+; English <en> to Russian <ru> localization document for `NPC1Artefact` naninovel script
+
+# 8f3c515f
+; 	Eliza: Thank you, {PlayerName}. You helped me a lot.
+	Элиза: Спасибо, {PlayerName}. Вы мне очень помогли.
+
+# 8a36819b
+; 	Sofia: How could you trust such a person... oh well, good luck.
+	София: Как ты мог доверять такому человеку... ну ладно, удачи.
+
+# bad6608
+; 	Eliza: Oh, {PlayerName}, I'm terribly disappointed. Did you choose to give the artifact to Sofia? I'm sure she's hiding something important from us. This choice can lead to unpleasant consequences. I hope you understand your decision.
+	Элиза: О, {PlayerName}, я ужасно разочарована. Вы решили отдать артефакт Софии? Я уверен, что она скрывает от нас что-то важное. Такой выбор может привести к неприятным последствиям. Надеюсь, вы понимаете свое решение.

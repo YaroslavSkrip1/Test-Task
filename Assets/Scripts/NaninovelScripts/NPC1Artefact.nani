@@ -1,0 +1,15 @@
+@set artefact="NPC1"
+@char Sofia.S visible:false
+@if artefact=="NPC1"
+	@showUI QuestView
+	@completeQuest
+	@wait 2
+	@char Person.Eliza pose:right
+	Eliza: Thank you, {PlayerName}. You helped me a lot.
+	@char Person.Sofia pose:right
+	Sofia: How could you trust such a person... oh well, good luck.
+@else
+	@char Person.Eliza pose:right
+	Eliza: Oh, {PlayerName}, I'm terribly disappointed. Did you choose to give the artifact to Sofia? I'm sure she's hiding something important from us. This choice can lead to unpleasant consequences. I hope you understand your decision.
+@endif
+	@goto Locations

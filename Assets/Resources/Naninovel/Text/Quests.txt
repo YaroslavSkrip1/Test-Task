@@ -1,0 +1,8 @@
+BodyQuest1: An archaeological artifact, the "Ancient Idol," has been stolen from the museum. Eliza seeks help to recover it. She believes Sofia might know something about it.
+BodyQuest2: Several villagers have disappeared. Sofia suspects some strange artifacts found in the forest might be behind their disappearance. She suggests starting an investigation.
+BodyQuest3: Odd occurrences around the cursed lake concern Eliza. She suggests the player investigate the lake's surroundings to understand the nature of the mysterious creatures, while Sofia might help gather information from local legends.
+BodyQuest4: Strange signs and sounds have caught the attention of Sofia and Eliza. They fear that somewhere in the forest, a forbidden ritual is being prepared. The player needs to locate the ritual site and halt it before it's too late.
+HeaderQuest1: The Search for the Missing Idol
+HeaderQuest2: The Mystery of Vanishing Villagers
+HeaderQuest3: Unraveling the Haunted Lake
+HeaderQuest4: Stopping the Forbidden Ceremony

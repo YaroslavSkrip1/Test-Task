@@ -1,0 +1,45 @@
+; English <en> to Russian <ru> localization document for `Map2` naninovel script
+
+# 98b0be11
+; 	{PlayerName}: Hello Sofia. I came about the quest.
+	{PlayerName}: Привет, София. Я пришел по поводу квеста.
+
+# 3875e2ab
+; 	Sofia: Hello, {PlayerName}. I have some changes. Before we continue, let's play a mini-game.
+	София: Привет, {PlayerName}. У меня есть некоторые изменения. Прежде чем продолжить, давайте сыграем в мини-игру.
+
+# bd80d3a
+; 	{PlayerName}: I completed the mini-game. What should I do next?
+	{PlayerName}: Я прошел мини-игру. Что я должен делать дальше?
+
+# a6954aa0
+; 	Sofia: Everything went well! The next step is Location - 3. There you will find a certain item that you need to use.
+	София: Все прошло хорошо! Следующий шаг — Локация — 3. Там вы найдете определенный предмет, который вам нужно использовать.
+
+# e4caa7bf
+; 	{PlayerName}: After I picked up this item at Location - 3, I became interested in what this thing was and why it was so important. Why all these quests and solving riddles?
+	{PlayerName}: После того, как я подобрал этот предмет в локации 3, я заинтересовался, что это за предмет и почему он так важен. Зачем все эти квесты и разгадывание загадок?
+
+# a17f08e7
+; 	{PlayerName}: Every character seems to be hiding something.
+	{PlayerName}: Кажется, каждый персонаж что-то скрывает.
+
+# d769ba14
+; 	{PlayerName}: Perhaps Sofia or Eliza know more than they say.
+	{PlayerName}: Возможно, София или Элиза знают больше, чем говорят.
+
+# 38b63ba2
+; 	{PlayerName}: I need to be more careful with my actions and decisions in this adventure.
+	{PlayerName}: Мне нужно быть более осторожным в своих действиях и решениях в этом приключении.
+
+# 6d7e4c70
+; 		Sofia: Hello, glad you're back
+		София: Привет, рада, что ты вернулся.
+
+# 1c80ea7
+; 		Sofia: Oh, is this what you wanted?
+		София: О, это ты, чего ты хотел?
+
+# 8ad5cc90
+; 		Sofia: If there’s nothing interesting then get lost
+		София: Если нет ничего интересного, то проваливай.

@@ -1,0 +1,41 @@
+; English <en> to Russian <ru> localization document for `Map1` naninovel script
+
+# f073258
+; 	{PlayerName}: Hi, I'm {PlayerName}. Do you have any quests for me?
+	{PlayerName}: Привет, я {PlayerName}. У тебя есть какие-нибудь квесты для меня?
+
+# c0c66992
+; 	Eliza: Hello {PlayerName}! I have a task for you. You need to go to Sofia in Location - 2 and find out what happened with the last quest.
+	Элиза: Привет, {PlayerName}! У меня есть для тебя задание. Тебе нужно отправиться к Софии в Локацию - 2 и узнать, что произошло с последним квестом.
+
+# 47102e3c
+; 	{PlayerName}: What's going on here?
+	{PlayerName}: Что здесь происходит?
+
+# 832ce07b
+; 	Eliza: Hello, {PlayerName}. We both need that item you found.
+	Элиза: Привет, {PlayerName}. Нам обоим нужен тот предмет, который ты нашел.
+
+# 3bf879e9
+; 	Sofia: Yes, you have to decide who to give the item to, me or Eliza.
+	София: Да, ты должен решить, кому отдать предмет, мне или Элизе.
+
+# 6c33929b
+; 	@choice "Give the artefact to Eliza" goto:NPC1Artefact
+	@choice "Отдайте артефакт Элизе" goto:NPC1Artefact
+
+# 67f26842
+; 	@choice "Give the artefact to Sofia" goto:NPC2Artefact
+	@choice "Отдать артефакт Софии" goto:NPC2Artefact
+
+# 4c4a30d1
+; 	@choice "Keep the artefact for myself" goto:MyArtefact
+	@choice "Оставь артефакт себе" goto:MyArtefact
+
+# 1a258716
+; 		Eliza: Hello, I'm so glad to see you.
+		Элиза: Здравствуйте, я так рада вас видеть.
+
+# edd097ec
+; 		Eliza: Why did you come again, you are not welcome here, you can leave.
+		Элиза: Зачем ты снова пришел, тебе здесь не рады, можешь уйти.

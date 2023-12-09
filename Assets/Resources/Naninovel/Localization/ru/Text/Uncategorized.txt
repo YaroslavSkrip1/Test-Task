@@ -1,0 +1,16 @@
+; English <en> to Russian <ru> localization document for `Uncategorized` managed text document
+
+Location: Локации
+Map: Карта
+Map1: Солярис
+Map2: Киберсфинкс
+Map3: Неопирамиды
+NewGameLabel: НОВАЯ ИГРА
+SummaryText: Введите ваше имя
+Placeholder: Введите текст...
+TitleMenu.CGGallery: Картинки
+TitleMenu.Continue: ПРОДОЛЖИТЬ
+TitleMenu.Exit: ВЫХОД
+TitleMenu.ExternalScripts: ВНЕШНИЕ СКРИПТЫ
+TitleMenu.Settings: НАСТРОЙКИ
+TitleMenu.Tips: СОВЕТЫ

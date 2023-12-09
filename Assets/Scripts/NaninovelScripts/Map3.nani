@@ -1,0 +1,5 @@
+@back Bg4
+@stopBGM fade:1
+@bgm Artefact volume:0.1 
+@showUI ArtefactView pos:90,40
+@stop

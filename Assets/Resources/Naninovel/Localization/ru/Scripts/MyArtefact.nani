@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `MyArtefact` naninovel script
+
+# 698941b4
+; 	Eliza: You're greedy! Figure it out yourself.
+	Элиза: Ты жадный! Разбирайтесь сами.
+
+# 7ba7b365
+; 	Sofia: What a selfish person, {PlayerName}.
+	София: Какой эгоистичный человек, {PlayerName}.

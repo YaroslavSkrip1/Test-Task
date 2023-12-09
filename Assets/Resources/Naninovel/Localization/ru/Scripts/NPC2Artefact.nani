@@ -1,0 +1,8 @@
+; English <en> to Russian <ru> localization document for `NPC2Artefact` naninovel script
+
+# 34851ff4
+; 	Sofia: Oh, thank you, {PlayerName}! You entrusted me with this artifact. I promise to use it for the benefit of our research. This is a great step forward for us.
+	София: О, спасибо, {PlayerName}! Вы доверили мне этот артефакт. Обещаю использовать его на благо нашего исследования. Для нас это большой шаг вперед.
+# 35a40ba8
+; 	Sofia: What nonsense! I don't have my artifact? Are you kidding or what?
+	София: Какая ерунда! У меня нет моего артефакта? Ты шутишь или что?
